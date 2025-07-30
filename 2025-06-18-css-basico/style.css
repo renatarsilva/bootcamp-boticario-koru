@@ -5,3 +5,31 @@ h1{
 h2{
     color: blue;
 }
+
+.title{
+    color: green;
+    border: 2px;
+    background-color: beige;
+}
+
+#myID {
+    border: 1px double;
+    color: purple;
+}
+
+li:hover{
+    font-size: 20px;
+}
+
+/* Every <ol> that has <li> as a child will be changed to a <ul> with the class larger */
+ol > li{
+    font-size: larger;
+}
+
+ul> li:nth-child(1){
+    color:red;
+}
+
+ol:nth-child(-n + 1){
+    color: blueviolet
+}
