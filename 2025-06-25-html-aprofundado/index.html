@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="discord-icon.png" type="discord-icon" />
+
+    <title>HTML and Discord</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>What do you know about Discord?</h1>
+    <!-- action com /, mmantém o formulário na própria página -->
+    <form action="/">
+      <div>
+        <label for="name">User:</label>
+        <input type="text" name="nameAccount" id="user" placeholder="User" />
+      </div>
+      <div>
+        <label for="Password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+      </div>
+      <div>
+        <label for="description">Description:</label>
+        <textarea
+          name="description"
+          id="description"
+          cols="15"
+          rows="3"
+        ></textarea>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>
